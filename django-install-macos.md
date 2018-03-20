@@ -11,7 +11,7 @@ in your terminal:
 $ mkdir ~/.virtualenvs
 $ python3 -m venv ~/.virtualenvs/django 
 $ source ~/.virtualenvs/django/bin/activate
-$ cd ~/.virtualenvs/django
+$ cd ~/yourdjangoproject
 $ pip install Django
 ~~~
 
