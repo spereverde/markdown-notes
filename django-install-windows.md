@@ -2,7 +2,7 @@
 
 
 * [django docu](https://docs.djangoproject.com/en/2.0/howto/windows/)
-* [github django project documentation](https://github.com/django/django/blob/master/docs/howto/windows.txt)
+* [djangogirls docu](https://tutorial.djangogirls.org/en/installation/)
 
 ## install python
 
