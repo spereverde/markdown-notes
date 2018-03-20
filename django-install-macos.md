@@ -1,6 +1,7 @@
 # Django install notes - macOS
 
 * [django docu](https://docs.djangoproject.com/en/2.0/topics/install/)
+* [djangogirls docu](https://tutorial.djangogirls.org/en/installation/)
 
 * short verson:
 
