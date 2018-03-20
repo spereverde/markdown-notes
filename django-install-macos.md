@@ -55,10 +55,13 @@ $ pip install Django
 ### 4.activate your django virtualenv
 
 * `python3 -m venv ~/.virtualenvs/django`
+* you will see that the virtualenv is activated when the name (in brackets) of the virtualenv is in front of your line in the terminal
+* `(django) computername:~ username$`
 * note: you will have to activate your django virtualenv everytime you restart your terminal (or computer)
 *  you can manually deactivate the virtualenv by typing: `deactivate`
 
 ### 5.install django
+* `cd ~/.virtualenvs/django`
 * `pip install Django`
 
 ## Windows
