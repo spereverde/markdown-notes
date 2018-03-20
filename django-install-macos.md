@@ -51,15 +51,16 @@ $ pip install Django
 * note: we will probably use only one virtualenv, the django one, during the course. If you like you can also put the djangodev virtualenv in your homedir directly or somewhere else on your computer. If you will start other python projects, its usually handy to have a seperate virtualenv for each project, which is why I usually put them together in a virtualenvs folder so its clear to me where they are.
 
 ## 4.activate your django virtualenv
-
-* `python3 -m venv ~/.virtualenvs/django`
+* `source ~/.virtualenvs/django/bin/activate`
 * you will see that the virtualenv is activated when the name (in brackets) of the virtualenv is in front of your line in the terminal
 * `(django) computername:~ username$`
 * note: you will have to activate your django virtualenv everytime you restart your terminal (or computer)
- * `. ~/.virtualenvs/djangodev/bin/activate`
+ * `. ~/.virtualenvs/django/bin/activate`
 *  you can manually deactivate the virtualenv by typing: `deactivate`
 
 ## 5.install django
-* `cd ~/.virtualenvs/django`
+* go to your homedir (~)
+* `mkdir djangogirls`
+* `cd djangogirls`
 * `pip install Django`
 
