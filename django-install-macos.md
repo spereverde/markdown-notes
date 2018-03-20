@@ -45,27 +45,26 @@ $ pip install Django
 * type this command in the terminal: 
 * `mkdir ~/.virtualenvs`
 
-#### create a virtualenv specifically for your django project
+### 3.create a virtualenv specifically for your django project
 * then use python 3 to create a virtualenv for django inside this folder:
 * `python3 -m venv ~/.virtualenvs/django`
 * more info on this in the [python venv docs](https://docs.python.org/3/library/venv.html)   
 
 * note: we will probably use only one virtualenv, the django one, during the course. If you like you can also put the djangodev virtualenv in your homedir directly or somewhere else on your computer. If you will start other python projects, its usually handy to have a seperate virtualenv for each project, which is why I usually put them together in a virtualenvs folder so its clear to me where they are.
 
-#### activate your django virtualenv
+### 4.activate your django virtualenv
 
 * `python3 -m venv ~/.virtualenvs/django`
 * note: you will have to activate your django virtualenv everytime you restart your terminal (or computer)
 *  you can manually deactivate the virtualenv by typing: `deactivate`
 
-#### install django
+### 5.install django
 * `pip install Django`
 
 ## Windows
 
 * [django docu](https://docs.djangoproject.com/en/2.0/howto/windows/)
 * [github django project documentation](https://github.com/django/django/blob/master/docs/howto/windows.txt)
-
 
 
 ## Windows using docker
