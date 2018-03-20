@@ -7,9 +7,13 @@ source ~/.virtualenvs/django/bin/activate
 django-admin startproject kinsmanlibrary
 cd kinsmanlibrary
 python manage.py runserver
-python manage.py migrate (it complains first time running the server)
--> will create a db.sqlite3 file (= database)
+do not do the migration it complains about when running the server hte first time
+if you do run
+´python manage.py migrate`
+it will create a db.sqlite3 file (= database)
 stop the server
 python manage.py startapp books
 -> creates books folderstructure
 ~~~
+
+
